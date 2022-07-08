@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="this is discription">
-    <link ref="stylesheet" href="webpage.css">
+    <link rel="stylesheet" href="webpage.css">
     <script src="webpage.js"></script>
-    <title>Google</title>
+    <title>Flipkart</title>
+    <link rel="icon" href="favicon.png">
 </head>
+
 <body>
-    <h1>Heading1</h1>
-    <p>this is <strong> hola the fuck </strong> <br>fksjsj djdjsje <em> em the fuxc </em>paragrapgh</p>
+    <h1>Heading1 &#128512;</h1>
+    <p id="para1">this is <strong> hola the ggujh </strong> <br>fksjsj djdjsje <em> em the fuxc </em>paragrapgh</p>
+    <p id="para2">this is another simple dimple paragraph</p>
     <a href="https://www.google.com" target="_blank">Google Baba ke pass jao</a><br>
-    <img src="https://source.unsplash.com/100x100/?gym,fish" alt="error"> <br>
-    <!--this is list section-->
+    <img src="https://source.unsplash.com/400x400/?nature,wildlife" alt="error"> <br>
+    <!-- this is list section -->
     <ol>
         <li>item 1</li>
         <li>item 2</li>
@@ -52,9 +56,20 @@
     <form>
         <div>Name:<input type="text" name="My name"></div>
         <div>Roll no:<input type="number" name="Roll no"></div>
+        <label for="check">Degree</label>
+        <select name="Degree" id="check">
+            <option value="Btech">Btech</option>
+            <option value="Mtech">Mtech</option>
+            <option value="Bsc">Bsc</option>
+            <option value="Msc">Msc</option>
+        </select>
         <div>Marks:<input type="number" name="marks"></div>
         <div>Email:<input type="email" name="Email"></div>
+        <div>Gender:<input type="radio" name="Gender">Male<input type="radio" name="Gender">Female<input type="radio"
+                name="Gender">Other</div>
+        <div>About:<textarea name="About" cols="30" rows="10"></textarea></div>
         <div><input type="submit" value="Submit Now"></div>
     </form>
 </body>
+
 </html>
